@@ -1,0 +1,40 @@
+{
+    "channel": [
+        { 
+            "id": 1,
+            "name": "Canal de demo",
+            "desc": "Exemple de canal de discussion"
+        },
+        { 
+            "id": 2,
+            "name": "Canal 2",
+            "desc": null
+        }
+    ],
+    "message": [
+        {
+            "id": 1,
+            "channelId": 1,
+            "content": "Hello World",
+            "author": "Zaza"
+        },
+        {
+            "id": 2,
+            "channelId": 1,
+            "content": "Deuxieme message :o",
+            "author": "Della"
+        },
+        {
+            "id": 3,
+            "channelId": 2,
+            "content": "Bonjour",
+            "author": "Donald"
+        },
+        {
+            "id": 4,
+            "channelId": 1,
+            "content": "Vous avez vu les Game Awards ?",
+            "author": "Della"
+        }
+    ]
+}

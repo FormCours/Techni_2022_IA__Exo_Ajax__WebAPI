@@ -1,0 +1,20 @@
+{
+  "name": "exo-01-api",
+  "version": "0.1.0",
+  "description": "Web API pour l'exo Ajax",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Technifutur",
+    "IA",
+    "API"
+  ],
+  "author": "Aurélien",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
