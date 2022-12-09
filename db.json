@@ -3,12 +3,14 @@
         { 
             "id": 1,
             "name": "Canal de demo",
-            "desc": "Exemple de canal de discussion"
+            "desc": "Exemple de canal de discussion",
+            "createdAt": 1670575321000
         },
         { 
             "id": 2,
             "name": "Canal 2",
-            "desc": null
+            "desc": null,
+            "createdAt": 1670575441000
         }
     ],
     "message": [
@@ -16,25 +18,29 @@
             "id": 1,
             "channelId": 1,
             "content": "Hello World",
-            "author": "Zaza"
+            "author": "Zaza",
+            "createdAt": 1670575362000
         },
         {
             "id": 2,
             "channelId": 1,
             "content": "Deuxieme message :o",
-            "author": "Della"
+            "author": "Della",
+            "createdAt": 1670575402000
         },
         {
             "id": 3,
             "channelId": 2,
             "content": "Bonjour",
-            "author": "Donald"
+            "author": "Donald",
+            "createdAt": 1670575810000
         },
         {
             "id": 4,
             "channelId": 1,
             "content": "Vous avez vu les Game Awards ?",
-            "author": "Della"
+            "author": "Della",
+            "createdAt": 1670576149000
         }
     ]
 }
